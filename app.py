@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Task Manager API - Version B"
+    return "Final Rebase Version"
 
 @app.route('/health')
 def health():
