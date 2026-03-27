@@ -24,3 +24,7 @@ def add_task():
     task = {"id": len(tasks)+1, "name": "Sample Task"}
     tasks.append(task)
     return jsonify(task)
+
+@app.route('/login')
+def login():
+    return "Login API Coming Soon"
