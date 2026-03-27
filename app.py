@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Task Manager API Running 🚀"
+    return "Task Manager API - Version B"
 
 @app.route('/health')
 def health():
